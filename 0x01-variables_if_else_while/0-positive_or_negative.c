@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - The entry point of the source code
  * Return: Always 0 (Upon successful executuon)

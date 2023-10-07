@@ -16,13 +16,16 @@ putchar((a % 10) + '0');
 putchar(' ');
 putchar((b / 10) + '0');
 putchar((b % 10) + '0');
-if (a != 98 || b != 98)
+if (a != 98 || b != 99)
 {
 putchar(',');
 putchar(' ');
 }
-}
-}
+if ((a * 100 + b) % 100 == 99)
+{
 putchar('\n');
+}
+}
+}
 return (0);
 }

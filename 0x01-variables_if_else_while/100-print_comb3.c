@@ -7,15 +7,13 @@ int main(void)
 {
 int x;
 int y;
-while (x < 10)
+for (x = 0; x < 10; x++)
 {
-while (y < 10)
+for (y = x + 1; y < 10; y++)
 {
-if (!(x > y) || x == y)
-{
-putchar(x);
-putchar(y);
-if (x == '8' && y == '9')
+putchar(x + '0');
+putchar(y + '0');
+if (x == 8 && y == 9)
 {
 putchar('\n');
 }
@@ -25,10 +23,6 @@ putchar(',');
 putchar(' ');
 }
 }
-y++;
-}
-y = '0';
-x++;
 }
 return (0);
 }

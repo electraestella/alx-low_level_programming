@@ -7,9 +7,9 @@ int main(void)
 {
 int x;
 int y;
-while (x < '10')
+while (x < 10)
 {
-while (y < '10')
+while (y < 10)
 {
 if (!(x > y) || x == y)
 {
@@ -30,5 +30,5 @@ y++;
 y = '0';
 x++;
 }
-return (0)
+return (0);
 }
